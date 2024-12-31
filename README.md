@@ -44,7 +44,3 @@ I would then present these findings and recommendations to the HR department.
 - **Targeted Retention Strategies for Overtime**: Tailor initiatives to lowerr attrition rate among employees who take overtimes.
   
 - **Improve Environment Satisfaction**: Since the less environmental satisfaction you have is correlated with the higher attirirotn rate, focus on making the environmrnt as satisfactory to the employees as possible.
-
-- **Desktop Development Focus**: Given that desktops bring in the majority of sessions, it’s important to prioritize the performance and compatibility of the website on desktop browsers, particularly Chrome.
-
-- **User Survey to Address Decline**: The decline in traffic over the 2017-2019 period should be investigated through user surveys. Understanding why users are visiting the site less can provide insights into areas of improvement and potential changes in the website’s functionality or content.
