@@ -16,7 +16,7 @@ Broke up into three tables as instructed
 
 I would then present these findings and recommendations to the HR department.
 
-- **Targeted Retention Strategies for Overtime**: Tailor initiatives to lowerr attrition rate among employees who take overtimes.
+- **Targeted Retention Strategies for Overtime**: Tailor initiatives to lower attrition rate among employees who take overtimes.
   
 - **Improve Environment Satisfaction**: Since the less environmental satisfaction you have is correlated with the higher attrition rate, focus on making the environment as satisfactory to the employees as possible.
 
