@@ -45,14 +45,7 @@ ON e.EmployeeNumber = r.EmployeeNumber
 GROUP BY PerformanceRating
 ORDER BY PerformanceRating;
 
-
-
-
-
-
-
-
-sql code etc 
+-- practice sql code is started with. 
 Question 1: How many employees are in each department */
 SELECT Department, COUNT(EmployeeNumber) AS Total_Employees
 FROM Employees
