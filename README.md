@@ -8,28 +8,9 @@ This project focuses on analyzing the HR Analytics Employee Attrition & Performa
  - Segment Employee Groups: Understand attrition trends within specific departments, job levels, or work-life balance.
  - Salary Observation: Reveal interesting patterns relating to employee salaries and their potential impact.
 
-Important terminology:
+SQL Skills Used: Data Cleaning, Joins, Common Table Expressions (CTE), Window functions, Aggregations, Group By, Data Type Conversion, and Data Transformation
 
-- **DAILY RATE**: Salary Level.
-- **EMPLOYEE NUMBER**: Employee ID
-- **EMPLOYEE COUNT**: Number of Employee.
-
-## Summary of Insights
-
-- **Device Category Breakdown**:
-    - **Desktop** brings in the most sessions (66% of the total).
-    - **Mobile** ranks second but has the highest bounce rate (~6% higher than desktop).
-    - **Tablets** bring in the least amount of traffic, though they have a lower bounce rate compared to mobile.
-  
-- **Browser Insights**:
-    - On **desktop**, Chrome is the most-used browser.
-    - On **mobile** and **tablet**, Safari dominates the sessions.
-    - The default mobile browsers (Safari in-app and Android Browser) tend to have higher bounce rates, contributing to mobile’s higher overall bounce rate.
-
-- **Traffic Trends**:
-    - Weekdays see significantly higher traffic compared to weekends.
-    - There is a notable **traffic spike in December 2017**, which correlates with multiple wildfires that occurred in California during that time. The spike suggests the website was used as a key information hub during that crisis.
-    - A **steady decline in traffic from 2017 to 2019** was observed, indicating a need to investigate factors behind this trend.
+Broke up into three tables as instructed
 
 ## Recommendations
 
