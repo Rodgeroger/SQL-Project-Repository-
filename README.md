@@ -10,7 +10,7 @@ This project focuses on analyzing the HR Analytics Employee Attrition & Performa
 
 SQL Skills Used: Data Cleaning, Joins, Common Table Expressions (CTE), Window functions, Aggregations, Group By, Data Type Conversion, and Data Transformation
 
-Broke up into three tables as instructed
+Broke up into three tables Money, Responses, and Employees as instructed
 
 ## Recommendations
 
