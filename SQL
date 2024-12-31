@@ -1,5 +1,26 @@
 -- SQL code
 
+How do overtime impact attrition
+SELECT 
+    CASE 
+        WHEN Overtime = 'Yes' THEN 'True'
+        WHEN Overtime = 'No' THEN 'False'
+        ELSE 'Unknown'
+    END AS Overtime_Status, 
+    COUNT(*) AS EmployeeCount,
+    SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS EmployeesWhoLeft,
+    CAST(ROUND(SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS float) AS AttritionRate
+FROM Employees AS e 
+JOIN Responses AS r ON e.EmployeeNumber = r.EmployeeNumber
+GROUP BY 
+    CASE 
+        WHEN Overtime = 'Yes' THEN 'True'
+        WHEN Overtime = 'No' THEN 'False'
+        ELSE 'Unknown'
+    END
+ORDER BY AttritionRate DESC;
+
+
 What is the relationship between environment satisfaction and job satisfaction across employees
 SELECT 
     EnvironmentSatisfaction, 
@@ -12,3 +33,15 @@ JOIN Responses r
 ON e.EmployeeNumber = r.EmployeeNumber
 GROUP BY EnvironmentSatisfaction, JobSatisfaction
 ORDER BY AttritionRate, EnvironmentSatisfaction, JobSatisfaction ASC;
+
+
+
+Are Employees with higher performance ratings less likely to leave the company?
+SELECT PerformanceRating, COUNT(*) AS EmployeeCount, 
+	SUM(CASE WHEN Attrition = 'True' THEN 1 ELSE 0 END) AS EmployeesWhoLeft,
+    CAST(ROUND(SUM(CASE WHEN Attrition = 'True' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) as float) AS AttritionRate
+FROM Employees AS e JOIN Responses AS r
+ON e.EmployeeNumber = r.EmployeeNumber
+GROUP BY PerformanceRating
+ORDER BY PerformanceRating;
+
