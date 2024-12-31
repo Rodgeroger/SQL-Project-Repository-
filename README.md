@@ -35,8 +35,6 @@ Important terminology:
 
 I would then present these findings and recommendations to the HR department.
 
-- **Review Business Travel Policies**: Frequent business travel contributes to higher attrition. Adjusting travel requirements or compensating employees more for travel-related burdens could help mitigate this trend.
-
 - **Targeted Retention Strategies for Overtime**: Tailor initiatives to lowerr attrition rate among employees who take overtimes.
   
 - **Improve Environment Satisfaction**: Since the less environmental satisfaction you have is correlated with the higher attrition rate, focus on making the environment as satisfactory to the employees as possible.
