@@ -4,7 +4,7 @@ This repository contains a project aimed at analyzing professor reviews. The pro
 
 ## **Current Status**
 - **Professors Data**: The table of professors is complete, and it includes their names, departments, total number of reviews, average rating, difficulty rating, and the percentage of students who would take the professor again.
-- **Reviews Data**: We are in the process of collecting student reviews for each professor. These reviews will include ratings, difficulty ratings, feedback text, and thumbs-up/thumbs-down counts.
+- **Reviews Data**: In the process of collecting student reviews for each professor. These reviews will include ratings, difficulty ratings, feedback text, and thumbs-up/thumbs-down counts.
 
 ## **Project Structure**
 The project is organized around two primary tables:
