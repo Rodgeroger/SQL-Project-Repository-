@@ -14,10 +14,10 @@ Contains the following data for each professor:
 - `professor_id`: Unique identifier for each professor.
 - `name`: The name of the professor.
 - `department`: The department the professor belongs to.
-- `total_reviews`: Total number of reviews the professor has received.
-- `avg_rating`: The average rating given to the professor.
+- `total_reviews`: Total number of reviews the professor has received (1-5).
+- `avg_rating`: The average rating given to the professor (1-5).
 - `would_take_again`: The percentage of students who would take the professor again.
-- `difficulty`: The average difficulty rating of the professor’s courses.
+- `difficulty`: The average difficulty rating of the professor’s courses (1-5).
 
 ### **Reviews Table**
 This table will store individual reviews, linked to each professor by `professor_id`:
