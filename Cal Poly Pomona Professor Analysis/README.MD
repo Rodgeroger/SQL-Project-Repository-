@@ -29,3 +29,6 @@ This table will store individual reviews, linked to each professor by `professor
 - `review_text`: The student's written feedback.
 - `thumbs_up`: The number of thumbs-up votes the review received.
 - `thumbs_down`: The number of thumbs-down votes the review received.
+
+### *Data Collection*
+Data collection was done using two softwares. the first was (Instant Data Scrapper)[https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US] and RStudio. I used RSelenium to Gather the Data of the Professors URLs to then have the R code gather the reviews from each professor
