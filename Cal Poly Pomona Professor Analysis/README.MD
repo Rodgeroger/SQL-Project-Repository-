@@ -14,10 +14,10 @@ This table will store the following data for each professor:
 - `Professor_ID`: Unique identifier for each professor.
 - `Professor_Name`: Full name of the Professor.
 - `Department`: The department the professor belongs to
-- `Total_Reviews`: Total number of reviews the professor has received (1-5).
-- `Avg_Rating`: The average quality rating given to the professor (1-5).
+- `Total_Reviews`: Total number of reviews the professor has received.
+- `Avg_Rating`: The average quality rating given to the professor (1.0-5.0).
 - `Would_Take_Again`: The percentage of students who would take the professor again.
-- `Avg_Difficulty`: The average difficulty rating of the professor’s courses (1-5).
+- `Avg_Difficulty`: The average difficulty rating of the professor’s courses (1.0-5.0).
 
 ### **Reviews Table**
 This table stores individual reviews, linked to each professor by the foreign key, `Professor_ID` :
