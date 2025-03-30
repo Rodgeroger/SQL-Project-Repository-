@@ -32,5 +32,5 @@ This table stores individual reviews, linked to each professor by the foreign ke
 - `Review_Date`: The date the review was posted on.
 
 ### *Data Collection*
-Data collection was done using two softwares. the first was [Instant Data Scrapper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US) and RStudio. I used RSelenium and tidyverse to Gather and analyse the Data. Microsoft SQL will then be used for further analysis. [The Code](https://github.com/Rodgeroger/SQL-Project-Repository-/blob/9b32eb1d5568bcf013fffaeacc023236119147b6/Cal%20Poly%20Pomona%20Professor%20Analysis/R%20Code) was originally written by [Samer Hijjazi](https://github.com/ggSamoora) with minor modifications done by me
+Data collection was done using two softwares. the first was [Instant Data Scrapper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US) and RStudio. I used RSelenium and Tidyverse to gather and manipulate the data. Microsoft SQL will then be used for further analysis. [The Code](https://github.com/Rodgeroger/SQL-Project-Repository-/blob/9b32eb1d5568bcf013fffaeacc023236119147b6/Cal%20Poly%20Pomona%20Professor%20Analysis/R%20Code) was originally written by [Samer Hijjazi](https://github.com/ggSamoora) with minor modifications done by me
 
