@@ -93,11 +93,15 @@ for (t in 1:160) {
 }
 
 
+
 # locates all teacher cards displayed
 teacher_cards <- remDr$findElements(using = "xpath", "//a[starts-with(@class, 'TeacherCard__StyledTeacherCard')]")
 
 # extracts urls from teacher cards. We will need these URLs to loop over the data.
 teacher_urls <- map(teacher_cards, ~.$getElementAttribute("href") %>% unlist())
+
+
+
 
 ## The main loop which loops through the professors and collects all their reviews
 for (t_url in teacher_urls) {
@@ -160,6 +164,7 @@ for (t_url in teacher_urls) {
   # five second pause before it moves to the next professor 
   Sys.sleep(4.5)
 }
+
 
 
 
@@ -238,17 +243,6 @@ Unique_Professor_IDs <- all_reviews %>%
   select(Professor_ID) %>%
   distinct()
 
-
-
-
-missing_names <- all_reviews %>%
-  filter(!Professor_Name %in% professors1298198921$name)
-
-
-missing_names
-
-missing_in_reviews <- professors1298198921 %>%
-  filter(!name %in% all_reviews$Professor_Name)
 
 # incase you have to insert custom urls
 new_urls <- c(
