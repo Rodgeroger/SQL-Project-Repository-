@@ -1,4 +1,4 @@
-.# Professor Review Analysis (Work in Progress)
+## Professor Review Analysis (Work in Progress)
 
 This repository contains a project aimed at analyzing professor reviews. The project is currently in progress, and the data for professors has been successfully collected and stored. We are now in the process of gathering individual student review data, which will be linked to the professors for further analysis.
 
