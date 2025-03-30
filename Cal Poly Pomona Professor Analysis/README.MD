@@ -3,8 +3,8 @@
 This repository contains a project aimed at analyzing professor reviews. The project is currently in progress, and the data for professors has been successfully collected and stored. We are now in the process of gathering individual student review data, which will be linked to the professors for further analysis.
 
 ## **Current Status**
-- **Professors Data**: The table of professors is complete, and it includes their names, departments, total number of reviews, average rating, difficulty rating, and the percentage of students who would take the professor again.
-- **Reviews Data**: In the process of data cleaning the student reviews for each professor. These reviews include ratings, difficulty ratings, feedback text, date and thumbs-up/thumbs-down counts.
+- **Professors Data**: The table of professors is in the process of gathering data, and it includes their names, departments, total number of reviews, average rating, difficulty rating, and the percentage of students who would take the professor again.
+- **Reviews Data**: The table of Reviews is complete and is in the process of data cleaning. These reviews include ratings, difficulty ratings, feedback text, date and thumbs-up/thumbs-down counts.
 
 ## **Project Structure**
 The project is organized around two primary tables:
