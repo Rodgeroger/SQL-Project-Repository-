@@ -32,5 +32,5 @@ This table stores individual reviews, linked to each professor by the foreign ke
 - `Review_Date`: The date the review was posted on.
 
 ### *Data Collection*
-Data collection was done using two softwares. the first was (Instant Data Scrapper)[https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US] and RStudio. I used RSelenium to Gather the Data of the Professors URLs to then have the R code gather the reviews from each professor. Code for RSelenium provided. CODE USED WRITTEN BY (Samer Hijjazi)[https://github.com/ggSamoora]
+Data collection was done using two softwares. the first was [Instant Data Scrapper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US) and RStudio. I used RSelenium to Gather the Data of the Professors URLs to then have the R code gather the reviews from each professor. Code for RSelenium provided. CODE USED WRITTEN BY [Samer Hijjazi](https://github.com/ggSamoora)
 
