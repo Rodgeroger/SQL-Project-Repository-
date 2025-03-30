@@ -10,7 +10,7 @@ This repository contains a project aimed at analyzing professor reviews. The pro
 The project is organized around two primary tables:
 
 ### **Professors Table**
-Contains the following data for each professor:
+This table will store the following data for each professor:
 - `Professor_ID`: Unique identifier for each professor.
 - `Professor_Name`: Full name of the Professor.
 - `Department`: The department the professor belongs to
@@ -20,7 +20,7 @@ Contains the following data for each professor:
 - `Avg_Difficulty`: The average difficulty rating of the professor’s courses (1-5).
 
 ### **Reviews Table**
-This table will store individual reviews, linked to each professor by `professor_id`:
+This table stores individual reviews, linked to each professor by `Professor_ID`:
 - `Professor_ID`: Unique identifier for each professor.
 - `Professor_Name`: Full name of the Professor.
 - `Department`: The department the professor belongs to
