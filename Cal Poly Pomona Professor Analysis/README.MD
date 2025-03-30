@@ -20,7 +20,7 @@ This table will store the following data for each professor:
 - `Avg_Difficulty`: The average difficulty rating of the professor’s courses (1-5).
 
 ### **Reviews Table**
-This table stores individual reviews, linked to each professor by `Professor_ID`:
+This table stores individual reviews, linked to each professor by the foreign key, `Professor_ID` :
 - `Professor_ID`: Unique identifier for each professor.
 - `Professor_Name`: Full name of the Professor.
 - `Department`: The department the professor belongs to
