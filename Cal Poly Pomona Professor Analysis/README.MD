@@ -39,6 +39,8 @@ This table stores individual reviews, linked to each professor by the foreign ke
 - Microsoft SQL Server
 - Excel
 - Instant Data Scrapper
+- Jupyter Notebook 
+  - Pandas
 
 ### **Data Collection**
 Data collection was done using two softwares. the first was [Instant Data Scrapper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US) for the professors table and RStudio for the reviews table. I used RSelenium and Tidyverse to gather and manipulate the data. Microsoft SQL will then be used for further analysis. [R code](https://github.com/Rodgeroger/SQL-Project-Repository-/blob/9b32eb1d5568bcf013fffaeacc023236119147b6/Cal%20Poly%20Pomona%20Professor%20Analysis/R%20Code) was originally written by [Samer Hijjazi](https://github.com/ggSamoora) with minor modifications done by me. Original code is avaliable [here](https://github.com/ggSamoora/TutorialsBySamoora/blob/3cacfc7b902e8c81dd628789dc7a1100c6eb16c8/rate_my_professor_script.Rmd). His Youtube videos on [RSelenium setup](https://youtu.be/GnpJujF9dBw?si=khNkvGcjxOh9AwGQ) and his own [Ratemyprofessor project](https://youtu.be/mWUOdV2nMOk?si=KhwTLVmnJaj4qtVP) were a big help, along with his entire [Youtube channel](https://www.youtube.com/@SamerHijjazi/featured). For chromedriver troubles, ZeeCoding [video](https://www.youtube.com/watch?v=Bpd04FH9ycs&ab_channel=ZeeCoding) was a huge help
