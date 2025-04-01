@@ -1,7 +1,6 @@
 # **Professor Review Analysis** (Work in Progress)
 
-This project is aimed at analyzing Cal Poly Pomona professor reviews from the website [Rate My Professors
-](https://www.ratemyprofessors.com/school/13914). The project is currently in progress, and the data for reviews has been successfully collected and stored. We are now in the process of gathering individual professor data, which will be linked to the reviews table for further analysis.
+This project is aimed at analyzing Cal Poly Pomona professor reviews from the website [Rate My Professors](https://www.ratemyprofessors.com/school/13914). The project is currently in progress, and the data for reviews has been successfully collected and stored. We are now in the process of gathering individual professor data, which will be linked to the reviews table for further analysis.
 
 ## **Current Status**
 - **Professors Data**: The table of professors is complete and is fully cleaned. it includes their names, departments, total number of reviews, average rating, difficulty rating, and the percentage of students who would take the professor again.
