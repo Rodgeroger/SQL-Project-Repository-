@@ -36,7 +36,7 @@ This table stores individual reviews, linked to each professor by the foreign ke
   - RSelenium
   - Tidyverse
   - dplyr
-- Microsoft SQL Server
+- SQL Server
 - Excel
 - Instant Data Scrapper
 - Jupyter Notebook 
