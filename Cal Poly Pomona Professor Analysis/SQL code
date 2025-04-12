@@ -1,0 +1,412 @@
+roger
+rod.ger
+Invisible
+
+macin — 12/31/24, 1:38 PM
+https://data.lacounty.gov/datasets/lacounty::sheriff-part-1-and-2-crimes-year-to-date/explore?location=34.078081%2C-118.042334%2C12.89
+Sheriff Part 1 and 2 Crimes (Year to Date)
+Data is a year-to-date (from January 1 through the last day of the prior full month) download of Part I and Part II Crimes reported in the Los Angeles County Sheriff’s Department’s jurisdiction. It is preliminary data and is subject to change.
+https://boston-pd-crime-hub-boston.hub.arcgis.com/datasets/d42bd4040bca419a824ae5062488aced/explore
+roger — 1/1/25, 2:57 PM
+this is prob the best ill do lol
+Image
+map for the crashes with the worst possible scenarios
+macin — 1/1/25, 2:57 PM
+not bad
+https://makeovermonday.co.uk/
+Makeover Monday
+Makeover Monday
+Improving how we visualize and analyze data, one chart at a time.
+Makeover Monday
+Employment and Wages of Commercial Pilots
+https://public.tableau.com/app/profile/shangruff/viz/EmploymentsandWagesofCommercialPilots/EmploymentabdWagesofCommercialPilotsMOM2024Week10
+https://data.bls.gov/dataQuery/find?fq=survey:%5Boe%5D&s=popularity:D
+BLS Data Finder
+The BLS Data Finder allows for search across all BLS time series databases.
+Image
+https://www.bls.gov/oes/current/oes532012.htm#(9)
+Bureau of Labor Statistics
+Image
+roger — 1/1/25, 3:06 PM
+this or nah? https://www.bls.gov/oes/tables.htm
+Bureau of Labor Statistics
+Occupational Employment and Wage Statistics (OEWS) Tables
+Tables Created by BLS
+Image
+macin — 1/1/25, 3:07 PM
+yeah i think so
+bro im fucking crash out i literally been looking and not even coming close
+roger — 1/1/25, 3:15 PM
+bro im ready to give up lol
+macin — 1/1/25, 3:15 PM
+same here, i can't fin shit
+roger — 1/1/25, 3:26 PM
+https://www.bls.gov/oes/current/oes_nd.htm
+Bureau of Labor Statistics
+Image
+https://www.bls.gov/oes/current/oes_ca.htm
+Bureau of Labor Statistics
+Image
+https://www.bls.gov/oes/current/oes_tx.htm
+Bureau of Labor Statistics
+Image
+macin — 1/6/25, 12:08 PM
+https://makeovermonday.co.uk/
+Makeover Monday
+Makeover Monday
+Improving how we visualize and analyze data, one chart at a time.
+Makeover Monday
+https://www.lendingtree.com/home/mortgage/vacant-homes-metros-study/
+LendingTree
+Study: Vacancy Rates in Largest US Metros | LendingTree
+The vacancy rate in 2023 across the nation’s 50 largest metros was 7.37%, up slightly from 7.22% in 2022.
+Image
+Image
+Image
+https://data.census.gov/app/mdat/ACSPUMS1Y2022
+https://www.tableau.com/learn/articles/free-public-data-sets
+Tableau
+Free Public Data Sets For Analysis
+Image
+macin — 1/6/25, 12:17 PM
+https://public.tableau.com/app/profile/gohjiejing/viz/DV_assignment2/Dashboard1
+roger — 1/6/25, 12:20 PM
+https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr/data_preview
+roger — 1/6/25, 12:46 PM
+Image
+Image
+roger — 1/6/25, 1:07 PM
+Image
+macin — 1/6/25, 1:21 PM
+Image
+Image
+Image
+macin — 1/6/25, 1:47 PM
+https://www.youtube.com/watch?v=6oFTdbrugUs&t=60s
+YouTube
+Andy Kriebel
+Make an AWESOME Tableau Dashboard in Only 10 Minutes
+Image
+roger — 1/6/25, 2:19 PM
+Image
+Image
+roger — 3/31/25, 12:48 PM
+Image
+macin — 3/31/25, 12:50 PM
+Google colab
+Attachment file type: unknown
+RatemyProfessor.ipynb
+27.98 KB
+roger — 3/31/25, 1:11 PM
+Image
+Image
+Image
+Image
+roger — 4/7/25, 5:25 AM
+wawa
+waw
+aw
+two questions so far 
+-- We are trying to improve students experience with profs. Should we have training for professors to teach how to be more helpful and clear when teaching.
+aka find if there is a correlation between teachers who are called "helpful" or "clear" and a higher avg rating and answer if we should give the training a shot.
+-- we are trying to improve students overall professor experierence. should we limit or encourage the increase of the number of courses a teacher is allowed to teach? or not do anything?
+aka Is there a correlation between a professor’s number of courses taught per semester and ratings?
+more courses, lower ratings?
+less courses, higher ratings?
+vice versa
+answer if we should test limiting/inreasing the amount of courses a professor is allowed to teach or nahh.
+if yes correlation, should we then go for limiting or increasing? find which has higher correlation. 
+--Pearson correlation coefficient
+https://www.socscistatistics.com/tests/pearson/default2.aspx
+--Pvalue 
+https://www.socscistatistics.com/pvalues/pearsondistribution.aspx
+--With correlation: Causation can be explored, but be cautious and consider all possible explanations.
+Explore causation by  for example limiting the amount of courses professors are allowed to teach or providing training to professors to help imrpove their clarity and helpfullness. so if yes correlation, pron should test training/limit courses
+
+--Without correlation: Causation may not be worth exploring unless there are strong theoretical or domain-based reasons to suspect a hidden causal link. 
+Social Science Statistics
+Pearson Correlation Coefficient Calculator
+An online Pearson correlation coefficient calculator (offers scatter diagram, full details of the calculations performed, etc).
+Social Science Statistics
+Quick P Value from Pearson (R) Score Calculator
+A simple calculator that generates a P Value from a Pearson (r) score.
+macin — 4/7/25, 10:10 AM
+Professor_ID,Avg_Rating,Total_Ratings,Professor_Name,Department,Would_Take_Again,Avg_Difficulty
+2073648,3.2,96,Mark Okuhata,History,49.0,3.5
+2676805,4.5,74,Melody Adejare,Communication,88.0,3.3
+54640,4.7,68,Jill Nemiro,Psychology,90.0,2.5
+2147335,3.0,35,Robert Blumenfeld,Psychology,43.0,3.3
+1087541,3.8,26,Juliana Fuqua,Psychology,75.0,2.8... (78 KB left)
+Expand
+clean_ratemyprofessors.csv
+128 KB
+roger — 4/7/25, 3:25 PM
+more possible questions 
+-- What percentage of a department's professors fall below a 3.0 average quality rating, and how has this trended over time?
+aka which department should be getting more attention for improvement
+
+-- Which professors show significant improvements or declines in average quality over the last 3 years? What changed (more courses, check comments, etc.)?
+aka which professors started to fall off over the last 3 years. query comments to possibly find out why. or just leave it at finding out who and use some general solution like "more teaching training/have a talk to discuss possible issues" 
+-- Are newer post covid professors (those who started appearing post-2023) performing better or worse than longer-tenured ones?
+aka comparatively are post 2023 teachers better perfomring than pre 2023 profesosrs that were already at cpp. post covid professors vs longer-tenured professors. we can do some general answer like if yes "yes post covid profs perfome better, we should do surveys to see why and possible implement system changes to get long tenured profs to adapt" 
+WE ONLY NEED 3-4 QUESTIONS
+roger — 4/9/25, 1:09 PM
+--Pearson correlation coefficient
+https://www.socscistatistics.com/tests/pearson/default2.aspx
+--Pvalue 
+https://www.socscistatistics.com/pvalues/pearsondistribution.aspx
+--With correlation: Causation can be explored, but be cautious and consider all possible explanations.
+Expand
+SQLQuery2.sql
+9 KB
+﻿
+--Pearson correlation coefficient
+https://www.socscistatistics.com/tests/pearson/default2.aspx
+--Pvalue 
+https://www.socscistatistics.com/pvalues/pearsondistribution.aspx
+--With correlation: Causation can be explored, but be cautious and consider all possible explanations.
+
+--Without correlation: Causation may not be worth exploring unless there are strong theoretical or domain-based reasons to suspect a hidden causal link.
+
+
+
+
+
+
+
+
+
+
+
+-- Should we have training for professors to teach teaching skills to be more helpful and clear.
+-- find if there is a correlation between teahcers who are called "helpful" or "clear" and a higher avg rating.
+/*with count_of_reviews_for_professor as (SELECT * FROM Reviews Group BY Professor_Name)) AS count_of_reviews_for_professor);
+
+SELECT p.Professor_Name, p.Department, ROUND(AVG(r.Quality),1) AS avg_rating, COUNT(r.Comment) AS amount_of_comments, COUNT(count_of_reviews_for_professor) AS count_of_reviews_for_professor
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+WHERE (r.Comment LIKE '%clarity%' AND r.comment not like '%no clarity%' AND r.comment not like '%little clarity%') OR (r.Comment LIKE '%helpful%' and r.comment not like '%not helpful%' and r.comment not like '%unhelpful%')
+GROUP BY p.Professor_Name, p.Department
+ORDER BY avg_rating DESC;*/
+
+--
+WITH count_of_reviews_for_professor AS (
+    SELECT Professor_ID, COUNT(*) AS total_reviews
+    FROM Reviews
+    GROUP BY Professor_ID
+)
+
+SELECT 
+    p.Professor_Name, 
+    p.Department, 
+    ROUND(AVG(r.Quality), 1) AS avg_rating, 
+    COUNT(r.Comment) AS amount_of_positive_comments,
+    crfp.total_reviews AS total_reviews_for_professor
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+JOIN count_of_reviews_for_professor crfp ON p.Professor_ID = crfp.Professor_ID
+WHERE 
+    (
+        r.Comment LIKE '%clarity%' AND r.Comment NOT LIKE '%no clarity%' AND r.Comment NOT LIKE '%little clarity%'
+    ) 
+    OR 
+    (
+        r.Comment LIKE '%helpful%' AND r.Comment NOT LIKE '%not helpful%' AND r.Comment NOT LIKE '%unhelpful%'
+    )
+GROUP BY p.Professor_Name, p.Department, crfp.total_reviews
+HAVING crfp.total_reviews >= 10
+ORDER BY avg_rating DESC;
+
+
+-- opposite
+/*SELECT p.Professor_Name, p.Department, ROUND(AVG(r.Quality),1) AS avg_rating, COUNT(r.Comment) AS amount_of_comments
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+WHERE r.Comment LIKE '%not clear%' OR r.Comment LIKE '%not helpful%' OR r.Comment LIKE '%unhelpful%' OR r.Comment LIKE '%unclear%' OR r.Comment LIKE '%unsure%' OR r.Comment LIKE '%ambiguous%' OR r.Comment LIKE '%hazy%' OR r.Comment LIKE '%confused%'
+GROUP BY p.Professor_Name, p.Department
+ORDER BY avg_rating ASC;*/
+
+
+--
+WITH count_of_reviews_for_professor AS (
+    SELECT Professor_ID, COUNT(*) AS total_reviews
+    FROM Reviews
+    GROUP BY Professor_ID
+)
+
+SELECT 
+    p.Professor_Name, 
+    p.Department, 
+    ROUND(AVG(r.Quality), 1) AS avg_rating, 
+    COUNT(r.Comment) AS amount_of_negative_comments,
+    crfp.total_reviews AS total_reviews_for_professor
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+JOIN count_of_reviews_for_professor crfp ON p.Professor_ID = crfp.Professor_ID
+WHERE 
+    (
+        r.Comment LIKE '%not clear%' 
+        OR r.Comment LIKE '%unclear%' 
+        OR r.Comment LIKE '%unsure%' 
+        OR (r.Comment LIKE '%ambiguous%' AND r.Comment NOT LIKE '%unambiguous%')
+        OR r.Comment LIKE '%not helpful%' 
+        OR r.Comment LIKE '%unhelpful%'
+    )
+GROUP BY p.Professor_Name, p.Department, crfp.total_reviews
+HAVING crfp.total_reviews >= 10
+ORDER BY avg_rating ASC;
+
+
+
+
+select Review_Date
+FROM Reviews
+
+
+
+-- should we cut down on number of courses a teacher is allowed to teach?
+-- Is there a correlation between a professor�s number of courses taught per semester and ratings?
+-- more courses, lower ratings?
+-- less courses, higher ratings?
+
+/*SELECT p.Professor_Name, COUNT(DISTINCT r.Class_Name) AS courses_taught, ROUND(AVG(r.Quality),1) AS avg_rating
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+GROUP BY p.Professor_Name
+ORDER BY courses_taught DESC, avg_rating DESC;*/
+
+SELECT 
+    p.Professor_Name, 
+    COUNT(DISTINCT r.Class_Name) AS courses_taught, 
+    ROUND(AVG(r.Quality), 1) AS avg_rating,
+    COUNT(r.Review_Date) AS total_reviews
+FROM Professors p
+JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+GROUP BY p.Professor_Name
+HAVING COUNT(r.Review_Date) > 10
+ORDER BY courses_taught DESC, avg_rating DESC;
+-- change review date count to have a bigger n (pairs)
+
+-- it seems like there is - - correlation between amount of courses taught and avg rating so - - we - - cut down on number of courses a teacher is allowed to teach
+
+
+SELECT 
+    review_count,
+    COUNT(*) AS number_of_professors
+FROM (
+    SELECT 
+        p.Professor_ID,
+        COUNT(*) AS review_count
+    FROM Reviews r
+    JOIN Professors p ON p.Professor_ID = r.Professor_ID
+    GROUP BY p.Professor_ID
+) AS review_counts
+GROUP BY review_count
+ORDER BY number_of_professors desc;
+
+
+
+-- What percentage of a department's professors fall below a 3.0 average quality rating, and how has this trended over time?
+WITH ProfessorYearlyRatings AS (
+    SELECT 
+        p.Professor_ID,
+        p.Professor_Name,
+        p.Department,
+        YEAR(r.Review_Date) AS review_year,
+        ROUND(AVG(r.Quality), 2) AS avg_rating
+    FROM Professors p
+    JOIN Reviews r ON p.Professor_ID = r.Professor_ID
+    GROUP BY p.Professor_ID, p.Professor_Name, p.Department, YEAR(r.Review_Date)
+)
+
+SELECT 
+    Department,
+    review_year,
+    COUNT(*) AS total_professors,
+    COUNT(CASE WHEN avg_rating < 3.0 THEN 1 END) AS professors_below_3_rating,
+    ROUND(100.0 * COUNT(CASE WHEN avg_rating < 3.0 THEN 1 END) / COUNT(*), 1) AS percent_below_3_rating
+FROM ProfessorYearlyRatings
+GROUP BY Department, review_year
+ORDER BY Department, review_year;
+
+
+
+-- Are newer post covid professors (those who started appearing post-2023) performing better or worse than longer-tenured ones
+-- we need post 2023 professors (they have to have no records before 2022. use YEAR() on dates) 2023-2025 reviews and see avg rating
+-- we need pre 2023 professors (they have to have records before 2022. use Year() on dates) 2023-2025 reviews and see avg rating
+WITH NewerProfessors AS (
+    SELECT professor_id
+    FROM Reviews
+    GROUP BY professor_id
+    HAVING MIN(YEAR(review_date)) >= 2023
+),
+LongerTenuredProfessors AS (
+    SELECT professor_id
+    FROM Reviews
+    GROUP BY professor_id
+    HAVING MIN(YEAR(review_date)) < 2022
+),
+FilteredReviews AS (
+    SELECT professor_id, rating
+    FROM Reviews
+    WHERE YEAR(review_date) BETWEEN 2023 AND 2025
+)
+
+SELECT 
+    'Newer Professors (Post-2023)' AS professor_group,
+    AVG(F.rating) AS avg_rating
+FROM FilteredReviews F
+JOIN NewerProfessors N ON F.professor_id = N.professor_id
+
+UNION ALL
+
+SELECT 
+    'Longer-Tenured Professors (Pre-2022)' AS professor_group,
+    AVG(F.rating) AS avg_rating
+FROM FilteredReviews F
+JOIN LongerTenuredProfessors L ON F.professor_id = L.professor_id;
+
+
+
+-- individual
+WITH NewerProfessors AS (
+    SELECT professor_id
+    FROM Reviews
+    GROUP BY professor_id
+    HAVING MIN(YEAR(review_date)) >= 2023
+),
+LongerTenuredProfessors AS (
+    SELECT professor_id
+    FROM Reviews
+    GROUP BY professor_id
+    HAVING MIN(YEAR(review_date)) < 2022
+),
+FilteredReviews AS (
+    SELECT professor_id, rating
+    FROM Reviews
+    WHERE YEAR(review_date) BETWEEN 2023 AND 2025
+)
+
+SELECT 
+    P.professor_name,
+    F.professor_id,
+    'Newer Professor (Post-2023)' AS professor_type,
+    AVG(F.rating) AS avg_rating_2023_2025
+FROM FilteredReviews F
+JOIN NewerProfessors N ON F.professor_id = N.professor_id
+JOIN Professors P ON F.professor_id = P.professor_id
+GROUP BY P.professor_name, F.professor_id
+
+UNION ALL
+
+SELECT 
+    P.professor_name,
+    F.professor_id,
+    'Longer-Tenured Professor (Pre-2022)' AS professor_type,
+    AVG(F.rating) AS avg_rating_2023_2025
+FROM FilteredReviews F
+JOIN LongerTenuredProfessors L ON F.professor_id = L.professor_id
+JOIN Professors P ON F.professor_id = P.professor_id
+GROUP BY P.professor_name, F.professor_id;
+SQLQuery2.sql
+9 KB
