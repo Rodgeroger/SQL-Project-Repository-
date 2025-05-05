@@ -246,3 +246,74 @@ FROM FilteredReviews F
 JOIN LongerTenuredProfessors L ON F.professor_id = L.professor_id
 JOIN Professors P ON F.professor_id = P.professor_id
 GROUP BY P.professor_name, F.professor_id;
+
+-- Are Professor Rating improving or declining over time?
+
+SELECT YEAR(Review_Date) as Review_year, round(avg(Avg_Rating),1) rating_over_time, COUNT(*) as Num_Reviews
+FROM Professors P
+JOIN Reviews R on P.Professor_ID = R.Professor_ID
+GROUP BY YEAR(Review_Date)
+ORDER BY YEAR(Review_Date)
+
+-- Department Analysis 
+-- What department have the most or least engaged students (number of reviews/comments)
+-- What classes contains the highest rating or highest difficulty?
+-- Which colleges have the most professor reviews, and how do they compare in terms of average professor quality, difficulty, and number of unique professors?
+
+SELECT P.Department, count(r.comment) as num_reviews
+FROM Professors P
+JOIN Reviews R on P.Professor_ID = R.Professor_ID
+GROUP BY P.Department
+order by count(r.comment) desc
+
+SELECT Class_Name, avg(Quality) as avg_quality, avg(Difficulty) as avg_dfficulty
+FROM Professors P
+JOIN Reviews R on P.Professor_ID = R.Professor_ID
+Group by Class_Name
+order by avg(Quality) desc, avg(Difficulty) desc
+
+SELECT Colleges, count(*) as num_reviews, count(distinct(Professor_Name)) as num_professors, avg(quality) as avg_college_quality, avg(difficulty) as avg_college_difficulty
+FROM Reviews
+WHERE Colleges like 'College%'
+group by Colleges
+order by count(*) desc
+
+-- Do comments that mention 'easy' or 'hard' correlate with difficulty ratings?
+SELECT 
+    CASE 
+        WHEN Comment LIKE '%easy%' THEN 'Mentions Easy'
+        WHEN Comment LIKE '%hard%' THEN 'Mentions Hard'
+        ELSE 'No Mention'
+    END AS Mention_Type,
+    COUNT(*) AS Num_Reviews,
+    AVG(Difficulty) AS Avg_Difficulty
+FROM Reviews
+WHERE Comment LIKE '%easy%' OR Comment LIKE '%hard%'
+GROUP BY 
+    CASE 
+        WHEN Comment LIKE '%easy%' THEN 'Mentions Easy'
+        WHEN Comment LIKE '%hard%' THEN 'Mentions Hard'
+        ELSE 'No Mention'
+    END
+ORDER BY Avg_Difficulty
+
+-- What are the most frequently used words in comments for highly rated vs poorly rated professors. 
+-- Positive review words
+SELECT LOWER(TRIM(REPLACE(REPLACE(REPLACE(value, '.', ''), ',', ''), '!', ''))) AS word,
+       COUNT(*) AS freq
+FROM Reviews
+CROSS APPLY STRING_SPLIT(Comment, ' ')
+WHERE Quality >= 4.0
+  AND LEN(value) > 3
+GROUP BY LOWER(TRIM(REPLACE(REPLACE(REPLACE(value, '.', ''), ',', ''), '!', '')))
+ORDER BY freq DESC;
+
+-- Negative Review Words
+SELECT LOWER(TRIM(REPLACE(REPLACE(REPLACE(value, '.', ''), ',', ''), '!', ''))) AS word,
+       COUNT(*) AS freq
+FROM Reviews
+CROSS APPLY STRING_SPLIT(Comment, ' ')
+WHERE Quality <= 2.0
+  AND LEN(value) > 3
+GROUP BY LOWER(TRIM(REPLACE(REPLACE(REPLACE(value, '.', ''), ',', ''), '!', '')))
+ORDER BY freq DESC;
