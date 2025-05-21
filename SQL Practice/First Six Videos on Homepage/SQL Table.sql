@@ -30,3 +30,76 @@ VALUES (5, 'The FBI "Scam" That Caught 7 Congressmen [Atrioc Reacts]', 'Atrioc V
 INSERT INTO HomePage_Videos (video_id, title, channel_name, view_count, like_count, dislike_count, category, comments, watched, duration, release_time)
 VALUES (6, 'BATTLEFRONT IS SO BACK', 'NLTILIA', 882, 0, 0, 'Gaming', 13, 0, '00:12:14', '2025-05-19 00:00')
 
+## Basic Video Summary
+SELECT 
+    COUNT(*) AS total_videos,
+    SUM(view_count) AS total_views,
+    SUM(like_count) AS total_likes,
+    SUM(dislike_count) AS total_dislikes,
+    SUM(comments) AS total_comments
+FROM HomePage_Videos;
+
+## Average Metrics per Video
+SELECT 
+    AVG(view_count) AS avg_views,
+    AVG(like_count) AS avg_likes,
+    AVG(dislike_count) AS avg_dislikes,
+    AVG(comments) AS avg_comments
+FROM HomePage_Videos;
+
+## Top 3 Most Viewed Videos
+SELECT 
+    title,
+    channel_name,
+    view_count
+FROM HomePage_Videos
+ORDER BY view_count DESC
+LIMIT 3;
+
+## Most Liked Video by Category
+SELECT category, title, like_count
+FROM HomePage_Videos h1
+WHERE like_count = (
+    SELECT MAX(like_count) 
+    FROM HomePage_Videos h2 
+    WHERE h2.category = h1.category
+);
+
+## Watched vs. Not Watched Count
+SELECT 
+    watched,
+    COUNT(*) AS video_count
+FROM HomePage_Videos
+GROUP BY watched;
+
+## Average Duration per Category
+SELECT 
+    category,
+    AVG(DATEDIFF(SECOND, 0, duration)) / 60.0 AS avg_duration_minutes
+FROM HomePage_Videos
+GROUP BY category;
+
+## New Videos Released in the Last 7 Days
+SELECT 
+    title,
+    release_time
+FROM HomePage_Videos
+WHERE release_time >= DATEADD(DAY, -7, GETDATE());
+
+## Like-to-Dislike Ratio
+SELECT 
+    title,
+    CASE 
+        WHEN dislike_count = 0 THEN 'No Dislikes'
+        ELSE CAST(like_count AS FLOAT) / dislike_count
+    END AS like_dislike_ratio
+FROM HomePage_Videos;
+
+## Category Popularity by Total Views
+SELECT 
+    category,
+    SUM(view_count) AS total_views
+FROM HomePage_Videos
+GROUP BY category
+ORDER BY total_views DESC;
+
