@@ -79,13 +79,6 @@ SELECT
 FROM HomePage_Videos
 GROUP BY category;
 
-## New Videos Released in the Last 7 Days
-SELECT 
-    title,
-    release_time
-FROM HomePage_Videos
-WHERE release_time >= DATEADD(DAY, -7, GETDATE());
-
 ## Like-to-Dislike Ratio
 SELECT 
     title,
