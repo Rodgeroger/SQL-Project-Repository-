@@ -49,6 +49,8 @@ Data collection was done using two softwares. the first was [Instant Data Scrapp
 Data cleaning done in collaboration with [Ivan Mu](https://github.com/ivanmu-1). Data cleaning was primarily done using Pandas, with the goal of standardizing and cleaning the data. This involved two CSV files: the first containing general professor information from RateMyProfessor, and the second containing in-depth comments and the overall sentiment of each individual review. The cleaning process followed a basic data cleaning structure of loading the data, inspecting it, standardizing formats, handling missing values, removing duplicates, ensuring correct data types, and addressing outliers. After cleaning, the data was saved into new, cleaned CSV files. This step represents the 'Transform' stage of the ETL process. All cleaning procedures were applied to both datasets and are documented in the accompanying Jupyter notebook files.
 
 ### **Data Analysis**
+Data Analysis was primarily done using SQL, Pandas, Seaborn, Matplotlib.
+
 Observations:
   - Clear positive shew - Professors have an high amount of 5's.
   - Majority of Professors have rating between 3 and 5
