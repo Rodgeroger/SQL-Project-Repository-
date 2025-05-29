@@ -6,14 +6,14 @@ library(dplyr)
 ## make sure chromedriver matches current chrome version, 
 ## search chrome://version/ to check current chrome version
 ## download latest chromedriver here: https://googlechromelabs.github.io/chrome-for-testing/ 
-rs_driver_object <- rsDriver(browser = "chrome", chromever = "134.0.6998.165")
+rs_driver_object <- rsDriver(browser = "chrome", chromever = "134.0.6998.165") #the latest version should go here
 remDr <- rs_driver_object$client
 
 ##open chromebrowser
 remDr$open()
 
 ##navigate to Cal Poly Pomona rate my professors, professors page
-remDr$navigate("https://www.ratemyprofessors.com/search/professors/13914?q=*")
+remDr$navigate("https://www.ratemyprofessors.com/search/professors/13914?q=*") 
 
 
 
